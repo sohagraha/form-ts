@@ -75,7 +75,7 @@ const FormInput = () => {
                     rules={[
                         {
                             required: true,
-                            message: 'Please input your Address!',
+                            message: 'Please input your Current Address!',
                         },
                     ]}
                 >
@@ -91,7 +91,7 @@ const FormInput = () => {
                     <Button style={{
                         marginTop: '38px'
                     }} type="primary" htmlType="submit">
-                        Submit
+                        Submit 
                     </Button>
                 </Form.Item>
             </Form>
