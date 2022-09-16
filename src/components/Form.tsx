@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, InputNumber, Form, Input } from 'antd';
-import Table from './Table';
+
 import 'antd/dist/antd.css'
 import TableForm from './Table';
 
@@ -75,7 +75,7 @@ const FormInput = () => {
                     rules={[
                         {
                             required: true,
-                            message: 'Please input your Current Address!',
+                            message: 'Please input your Address!',
                         },
                     ]}
                 >
